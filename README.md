@@ -1,6 +1,6 @@
 # OpenCode Ralph
 
-![Ralph](ralph.webp)
+![Ralph](https://github.com/snarktank/ralph/blob/main/ralph.webp)
 
 > Autonomous AI agent loop for [OpenCode](https://opencode.ai) — runs repeatedly until all PRD items are complete. Fresh context per story. No shell script needed.
 

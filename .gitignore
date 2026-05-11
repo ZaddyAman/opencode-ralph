@@ -1,0 +1,13 @@
+# Ralph state files (project-specific)
+ralph/prd.json
+ralph/progress.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*~

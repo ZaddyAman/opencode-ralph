@@ -1,0 +1,34 @@
+{
+  "project": "MyProject",
+  "branchName": "ralph/my-feature",
+  "userStories": [
+    {
+      "id": "US-001",
+      "title": "Set up project scaffolding",
+      "description": "Initialize the project with build tooling, directory structure, and development dependencies.",
+      "spec": "specs/01-scaffolding.md",
+      "acceptanceCriteria": [
+        "Build tooling configured",
+        "Directory structure matches architecture spec",
+        "Development dependencies install cleanly",
+        "Linter and type checker configured"
+      ],
+      "priority": 1,
+      "passes": false
+    },
+    {
+      "id": "US-002",
+      "title": "Implement core data models",
+      "description": "Create the fundamental data structures and types used across the application.",
+      "spec": "specs/02-models.md",
+      "acceptanceCriteria": [
+        "All required models defined",
+        "Validation rules enforced",
+        "Serialization/deserialization works",
+        "Unit tests pass"
+      ],
+      "priority": 2,
+      "passes": false
+    }
+  ]
+}

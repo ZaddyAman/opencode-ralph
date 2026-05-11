@@ -1,5 +1,7 @@
 # OpenCode Ralph
 
+![Ralph](ralph.webp)
+
 > Autonomous AI agent loop for [OpenCode](https://opencode.ai) — runs repeatedly until all PRD items are complete. Fresh context per story. No shell script needed.
 
 Ralph is an implementation of [Geoffrey Huntley's Ralph pattern](https://ghuntley.com/ralph/) built natively inside OpenCode's agent system. Instead of a `while` loop in bash, the loop logic lives in the orchestrator agent's system prompt. Subagents handle planning, implementation, and testing — each with a fresh context window.
